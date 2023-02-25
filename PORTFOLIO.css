@@ -1,0 +1,332 @@
+body{
+    background-color: black;
+}
+header{
+  
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 250px;
+   
+}
+nav {
+     width: 30%;
+    max-width: 650px;
+    height: 50px;
+    
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+  
+  nav > ul > li {
+    color:#d9ECF2;
+    margin: 0 0.1rem;
+    display: block;
+  }
+  
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+.HELLO{
+    color:#F56A79 ;
+    padding-top: 260px;
+   
+  
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+
+    
+    max-width:max-content;
+    
+}
+
+.i-am{
+    color:#d9ECF2;
+    padding-top: 10px;
+    padding-left: 250px;
+    font-size:45px;
+    font-family: poppins;
+ 
+}
+
+.designation{
+    color:#F56A79;
+    padding-top: 10px;
+    padding-left: 250px;
+    font-size: larger;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.desc{
+    color:#d9ECF2;
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 200px;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-flex;
+letter-spacing: 3px;
+}
+
+.krishna-img{
+  
+ padding-top: 120px;
+padding-left: 940px;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.skills_section{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 13%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.skills_head h2 span{
+    color: #F56A79;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+    color:#D9ECF2;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+    color:#D9ECF2;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color:black;
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #F56A79;
+    border-radius: 25px;
+}
+.skill_bar .bar .power{
+    width: 90%;
+    animation: power 2s;
+}
+@keyframes power {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .xcel{
+    width: 85%;
+    animation: xcel 2s;
+}
+@keyframes xcel {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .sql{
+    width: 80%;
+    animation: sql 2s;
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .java{
+    width: 80%;
+    animation: java 2s;
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .sb{
+    width: 75%;
+    animation: sb 2s;
+}
+@keyframes sb{
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+.skill_bar .bar .r{
+    width: 70%;
+    animation: r 2s;
+}
+@keyframes r{
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+
+.experience{
+   
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.contact{
+    padding-top: 200px;
+    padding-left: 70px;
+}
+
+.details{
+    letter-spacing: 6px;
+     padding-top: 50px;
+}
+
+.award{
+    color:#d9ECF2;
+    width: 100%;
+   letter-spacing: 4px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+  
+  .timeline {
+    background: var(--primary-color);
+    margin: 20px auto;
+    padding-left: 340px;
+    
+  }
+  
+ 
+  .outer {
+    border-left: 2px solid #333;
+  }
+  
+  
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #333;
+    color: #d9ECF2;
+    border-radius: 8px;
+    max-width: 900px;
+  }
+  
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .title {
+    color: #F56A79;
+    position: relative;
+    letter-spacing: 6px;
+
+  }
+  
+
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid #F56A79;
+  }
+
+  .icon{
+    font-size: 20px;
+    
+    padding-left: 750px;
+    letter-spacing: 10px;
+    
+  }
+
+  
